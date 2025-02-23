@@ -4,7 +4,7 @@ export default function Navbar() {
   const user = true;
 
   return (
-    <nav className="h-24 flex items-center justify-around">
+    <nav className="w-full h-28 flex items-center justify-around fixed z-10">
       <Link href={"/"} className="text-4xl font-black">
         PLAY<span className="text-[#45F882]">GRID</span>
       </Link>
