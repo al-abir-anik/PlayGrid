@@ -1,7 +1,11 @@
 import Head from "next/head";
 import Banner from "./home-sections/Banner";
+import dbConnect from "./database/dbConnect";
 
-export default function Home() {
+export default async function Home() {
+  const demoCollection = dbConnect("movies");
+  const data = await demoCollection.find({}).toArray();
+
   return (
     <>
       <Head>
@@ -12,7 +16,12 @@ export default function Home() {
         />
       </Head>
       <div>
-        <Banner></Banner>
+        <header>
+          <Banner></Banner>
+        </header>
+        <main>
+          
+        </main>
       </div>
     </>
   );

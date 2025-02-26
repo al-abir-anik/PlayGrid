@@ -11,7 +11,16 @@ export default function Banner() {
   const slides = [
     {
       id: 1,
-      img: "https://i.ibb.co.com/fVdt93PF/wp6072800-gaming-poster-wallpapers.jpg",
+      img: "https://i.ibb.co.com/rGx7kwgF/wp12988880-call-of-duty-modern-warfare-iii-gaming-poster-wallpapers.jpg",
+      title: "Modern Warfare III",
+      description:
+        "Call of Duty: Modern Warfare III is a 2023 first-person shooter game developed by Sledgehammer Games and published by Activision. It is the twentieth installment of the Call of Duty series and is the third entry in the rebooted Modern Warfare sub-series, following Call of Duty: Modern Warfare II.",
+      platform: "PLAYSTATION 4, XBOX, PC",
+      category: "FIRST PERSON SHOOTER",
+    },
+    {
+      id: 2,
+      img: "https://i.ibb.co.com/hR00yMbW/wp6072800-gaming-poster-wallpapers.jpg",
       title: "Assassin's Creed",
       description:
         "London, 1868. In the heart of the Industrial Revolution, lead your underworld organization and grow your influence to fight those who exploit the less privileged in the name of progress.",
@@ -19,23 +28,13 @@ export default function Banner() {
       category: "ACTION, ADVENTURE",
     },
     {
-      id: 2,
+      id: 3,
       img: "https://i.ibb.co.com/YTjPS2GN/wp9129545-playstation-4-4k-wallpapers.jpg",
       title: "GOD OF WAR",
       description:
-        "God of War is an action-adventure game franchise created by David Jaffe and developed by Sony's Santa Monica Studio. It began in 2005 on the PlayStation 2 video game console and has become a flagship series for PlayStation, consisting of nine installments across multiple platforms.",
+      "God of War is an action-adventure game franchise created by David Jaffe and developed by Sony's Santa Monica Studio. It began in 2005 on the PlayStation 2 video game console and has become a flagship series for PlayStation, consisting of nine installments across multiple platforms.",
       platform: "PLAYSTATION 2, PC",
       category: "ROLEPLAY, ADVENTURE",
-    },
-
-    {
-      id: 3,
-      img: "https://i.ibb.co.com/rGx7kwgF/wp12988880-call-of-duty-modern-warfare-iii-gaming-poster-wallpapers.jpg",
-      title: "Modern Warfare III",
-      description:
-        "Call of Duty: Modern Warfare III is a 2023 first-person shooter game developed by Sledgehammer Games and published by Activision. It is the twentieth installment of the Call of Duty series and is the third entry in the rebooted Modern Warfare sub-series, following Call of Duty: Modern Warfare II.",
-      platform: "PLAYSTATION 4, XBOX, PC",
-      category: "FIRST PERSON SHOOTER",
     },
   ];
 
